@@ -17,7 +17,7 @@ export default function Navbar() {
   const h2Styles = 'font-bold text-2xl w-4/5 text-center'
 
   return (
-    <header className="navbar-wrapper min-w-fit w-2/3 min-h-80 mx-auto my-20 border-2 rounded-lg">
+    <header className="navbar-wrapper min-w-fit w-3/4 lg:w-3/5 xl:w-2/5 min-h-80 mx-auto my-20 border-2 rounded-lg">
       <nav className="navbar">
         <Logo />
         <div className="navbar-links min-h-52 min-w-56 flex flex-col justify-evenly items-center">
